@@ -1,0 +1,65 @@
+/* Genel sayfa düzeni */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #000000, #b8860b);
+}
+
+/* Giriş kutusu */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    border-radius: 15px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Başlık */
+.login-container h2 {
+    color: gold;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Form elemanları */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+}
+
+.login-form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Buton */
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: gold;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #ffdf00;
+    transform: scale(1.03);
+}
